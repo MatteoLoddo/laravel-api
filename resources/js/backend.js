@@ -4,7 +4,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-const { data } = require('jquery');
+const { data } = require('@popperjs/core');
 
 require('./bootstrap');
 
