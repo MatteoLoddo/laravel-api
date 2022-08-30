@@ -36,9 +36,11 @@
                 @guest
                 <h2>utente NON-LOGGATO</h2>
                 @endguest
-                <a class="decoration-text-none" href="https://laravel.com/docs">ciao</a>
+              
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="{{route('admin.posts.index')}}">Post</a>
+                    <a href="{{route('admin.users.index')}}">Utenti</a>
+
                 </div>
             </div>
         </div>

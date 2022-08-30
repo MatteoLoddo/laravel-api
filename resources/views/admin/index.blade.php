@@ -7,6 +7,9 @@
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
+                <ul>
+                    <li v-for='elem in lista' v-html='elem'></li>
+                </ul>
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">

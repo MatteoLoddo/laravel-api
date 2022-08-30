@@ -49661,8 +49661,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\RepositoryBoolean\laravel_many_to_many\resources\js\backend.js */"./resources/js/backend.js");
-module.exports = __webpack_require__(/*! D:\RepositoryBoolean\laravel_many_to_many\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\RepositoryBoolean\laravel-api\resources\js\backend.js */"./resources/js/backend.js");
+module.exports = __webpack_require__(/*! D:\RepositoryBoolean\laravel-api\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

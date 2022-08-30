@@ -1,17 +1,30 @@
 <template>
 
-  <h1>Hello.vue {{message}}</h1>
-  
+
+
+  <div>
+    <NavbarComponent></NavbarComponent>
+    <div class="container">
+      <h2>Lista Post</h2>
+      <PostList></PostList>
+    </div>
+    
+  </div>
+
+
 </template>
 
 <script>
-  export default{
+import NavbarComponent from './components/navbar.component.vue';
+import PostList from './components/PostList.vue';
+export default {
+  components: { NavbarComponent, PostList },
+  data() {
+    return {
 
-    data(){
+      message: "ciao",
 
-      return{
-        message:'ciao',
-      }
-    }
+    };
   }
+}
 </script>
